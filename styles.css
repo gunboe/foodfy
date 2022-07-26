@@ -10,23 +10,26 @@ body {
     padding: 10px 100px;
     width: 700px;
     font-family: 'Roboto', sans-serif;
+    font-size: small;
 }
-.h1 {
+.top1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 10px;
         
 }
-.logo {
-    size: initial;
-}
-.h1 div {
+.top1 div {
     justify-self: right;
-    padding: 5px 20px;
+    padding: 5px 10px;
     color: black;
     font-size: 13px;
     color: #111111;
+}
+.logo {
+    size: initial;
+    padding: 10px;
+    cursor: pointer;
 }
 .href {
     text-decoration: none;
@@ -42,22 +45,32 @@ a:hover {
     font-style: oblique;
     font-weight: bolder;
 }
-.h2 {
+.top2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: end;
     background-color: #FBDFDB;
     border-radius: 30px;
-    padding: 10px 10px;
+    padding: 10px 20px;
 }
-.h2 img {
-    width: 150px;
+.top2 img {
+    width: 80px;
     justify-self: right;
-    padding: 10px;
+    padding: 10px ;
 }
+
 .subtitle {
     font-size: larger;
     font-weight: bolder;
-    padding: 10px;
-    ;
+    padding: 10px 0px;
 }
+
+/* Sobre */ 
+
+section {
+    padding: 20px;
+}
+body h1 {
+    padding: 20px;
+    font-weight: bold;
+} 
