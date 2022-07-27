@@ -1,32 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>FoodFy</title>
-        <link rel="stylesheet" href="styles.css">
-        <link href="">
-    </head>
-    <body>
-        <header class="top1">
-            <img class="logo" src="../layouts/assets/logo.png" alt="FoodFy logo" onclick="goHome()">
-            <div>
-                <a class="href" href="sobre.html" tar>Sobre</a>
-                <a class="href" href="receitas.html">Receitas</a>
-            </div>
-        </header>
-        <div class="top2">
-            <div>
-                <div class="call">As melhores receitas</div>
-                <div>Aprenda a construir os melhores pratos com receitas criadas por profissionais do mundo interio.</div>
-            </div>
-            <img src="../layouts/assets/chef.png" alt="chef">
-        </div>
 
-        <!-- CARDS mais acessados -->
-        <section>
-            <div class="subtitle"> As receitas mais acessadas</div>
-            <div>CARD1</div>
-            <div>CARD2</div>
-        </section>
+<head>
+    <title>FoodFy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="">
+</head>
+
+<body>
+    <header class="top1">
+        <img class="logo" src="../layouts/assets/logo.png" alt="FoodFy logo" onclick="goHome()">
+        <div>
+            <a class="href" onclick="openSobre()">Sobre</a>
+            <a class="href" onclick="openReceitas()" >Receitas</a>
+        </div>
+    </header>
+    <iframe src="corpo.html" frameborder="0"></iframe>
     </body>
-    <script src="scripts.js"></script>
+<script src="scripts.js"></script>
+
 </html>
