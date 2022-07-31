@@ -2,9 +2,18 @@ function goHome() {
     open("index.html","_self")
 }
 
-function openSobre() {
-    document.querySelector('iframe').src="sobre.html"
+const modalOverlay = document.querySelector(".modal_overlay")
+const cards = document.querySelectorAll(".card")
+
+for (let card of cards) {
+    card.addEventListener("click",function(){
+        modalOverlay.classList.add("active")
+        const id_img = card.getAttribute("id")
+        document.querySelector(".modal_img").src=`../layouts/assets/${id_img}.png`
+    })
 }
-function openReceitas() {
-    document.querySelector('iframe').src="receitas.html"
+
+
+function fecha_modal() {
+    modalOverlay.classList.remove("active")
 }

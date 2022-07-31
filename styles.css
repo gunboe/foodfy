@@ -3,24 +3,24 @@
     border: 0;
     padding: 0;
 }
+
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
 
-body { 
+body {
     background: white;
     padding: 10px 100px;
     width: 700px;
     font-family: 'Roboto', sans-serif;
     font-size: small;
-    overflow: clip;
-
+    /* overflow: clip; */
 }
+
 .top1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    padding: 10px;
-        
 }
+
 .top1 div {
     justify-self: right;
     padding: 5px 10px;
@@ -28,25 +28,30 @@ body {
     font-size: 13px;
     color: #111111;
 }
+
 .logo {
     size: initial;
     padding: 10px;
     cursor: pointer;
 }
+
 .href {
     text-decoration: none;
     padding: 10px;
 }
+
 a:hover {
     background-color: hsla(333, 91%, 55%, 0.051);
     text-decoration: none;
 
 }
+
 .call {
     font-size: larger;
     font-style: oblique;
     font-weight: bolder;
 }
+
 .top2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -55,33 +60,97 @@ a:hover {
     border-radius: 30px;
     padding: 10px 20px;
 }
+
 .top2 img {
     width: 80px;
     justify-self: right;
-    padding: 10px ;
+    padding: 10px;
 }
 
 .subtitle {
     font-size: larger;
-    font-weight: bolder;
-    padding: 10px 0px;
+    font-weight: bold;
+    padding: 15px 5px 5px 5px;
 }
-
-/* Sobre */ 
 
 section {
-    padding: 0px;
+    padding: 5px;
 }
+
 .body_sobre h1 {
     padding: 10px;
     font-weight: bold;
-} 
-
-iframe {
-    width: 100%;
-    height: 600px;
 }
 
-.body_corpo {
-    padding: 0px;
+.modal_overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.modal_overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin: 30vh auto;
+    border-radius: 3%;
+    position: relative;
+}
+
+.modal_img {
+    width: 300px;
+    height: 200px;
+    object-fit: scale-down;
+}
+
+.modal .close_modal {
+    color: black;
+    position: absolute;
+    right: 0;
+    padding: 3px;
+    cursor: pointer;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.card {
+    max-width: 200px ;
+    max-height: 100px;
+}
+.card img {
+    max-width: 200px ;
+    max-height: 100px;
+}
+
+.apagada {
+    visibility: hidden;
+    opacity: 1;
+}
+
+.active {
+    visibility: visible;
+    opacity: 0;
 }
