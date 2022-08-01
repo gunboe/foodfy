@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
+
+body {
+    background: white;
+    padding: 10px 100px;
+    width: 700px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    /* overflow: clip; */
+}
+
+.top1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.top1 div {
+    justify-self: right;
+    padding: 5px 10px;
+    color: black;
+    font-size: 13px;
+    color: #111111;
+}
+
+.logo {
+    size: initial;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.href {
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: hsla(333, 91%, 55%, 0.051);
+    text-decoration: none;
+
+}
+
+.call {
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.top2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.top2 img {
+    width: 80px;
+    justify-self: right;
+    padding: 10px;
+}
+
+.subtitle {
+    font-size: larger;
+    font-weight: bold;
+    padding: 15px 5px 5px 5px;
+}
+
+section {
+    padding: 5px;
+}
+
+.body_sobre h1 {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.modal_overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.modal_overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal {
+    background-color: rgb(252, 232, 207);
+    width: 300px;
+    height: 400px;
+    margin: 30vh auto;
+    border-radius: 3%;
+    position: relative;
+}
+
+.modal_img {
+    width: 294px;
+    height: 100%;
+    top: 10px;
+    object-fit: scale-down;
+    padding: 20px 0px 3px 3px;
+}
+
+.modal .close_modal {
+    color: black;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.card {
+    max-width: 200px ;
+    max-height: 100px;
+}
+.card img {
+    max-width: 200px ;
+    max-height: 100px;
+}
+
+#card_content {
+    padding: 3px;
+}
+
+.apagada {
+    visibility: hidden;
+    opacity: 1;
+}
+
+.active {
+    visibility: visible;
+    opacity: 0;
+}
