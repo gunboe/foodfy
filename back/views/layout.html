@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FoodFy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <!-- Cabeçalho --> 
+    <div class="top1">
+        <img class="logo" src="/logo.png" alt="FoodFy logo" onclick="goHome()">
+        <div>
+            <a class="href" href="/sobre" >Sobre</a>
+            <a class="href" href="/receitas" >Todas Receitas</a>
+        </div>
+    </div>
+
+    {% block content %}{% endblock %}
+
+    <!-- Modal -->
+    <div class="modal_overlay">
+        <div class="modal">
+            <a class="close_modal" onclick="fecha_modal()">
+                <span class="material-symbols-outlined">close</span>
+            </a>
+            <div class="modal_content">
+                <img class="modal_img" src="" alt="">
+                <div id="card_content"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="/scripts.js"></script>
+
+</html>

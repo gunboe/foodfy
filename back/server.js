@@ -17,17 +17,5 @@ server.get("/receitas", (req,res,) => res.render("receitas"))
 server.get("/sobre", (req,res,) => res.render("sobre"))
 
 // Definição das subpastas para o Template Engine
-server.use(express.static('public'))
 server.set("view engine","html")
-
-
-// const texto = "Boa noite! E ai, blz?"
-// const cabeca = "<html> <meta http-equiv=\"refresh\" content=\"3\"> <body>"
-// const corpo = `<br><b>--> ${texto} <--</b>`
-// const pes = "</body></html>"
-
-// server.get("/",function(req, res){
-//     return res.send(resposta)
-// })
-
-
+server.use(express.static('public'))

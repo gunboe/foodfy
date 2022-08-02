@@ -1,95 +1,63 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>FoodFy</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-</head>
-
-<body class="body_receitas">
-    
-    <!-- Cabeçalho -->
-    <div class="top1">
-        <img class="logo" src="/logo.png" alt="FoodFy logo" onclick="goHome()">
-        <div>
-            <a class="href" href="/sobre" >Sobre</a>
-            <a class="href" href="/receitas" >Todas Receitas</a>
-        </div>
-    </div>
+{% extends "layout.html" %}
  
-    <!-- Cards de Receitas -->
-    <section class="cards">
-        <div class="card" id="asinhas">--CARD1--
-            <img src="/asinhas.png" alt="">
-        </div>
-        <div class="card" id="burger">--CARD2--
-            <img src="/burger.png" alt="">
-        </div>
-        <div class="card" id="doce">--CARD3--
-            <img src="/doce.png" alt="">
-        </div>
-        <div class="card" id="espaguete">--CARD4--
-            <img src="/espaguete.png" alt="">
-        </div>
-        <div class="card" id="lasanha">--CARD5--
-            <img src="/lasanha.png" alt="">
-        </div>
-        <div class="card" id="pizza">--CARD6--
-            <img src="/pizza.png" alt="">
-        </div>
-        <div class="card" id="asinhas">--CARD1--
-            <img src="/asinhas.png" alt="">
-        </div>
-        <div class="card" id="burger">--CARD2--
-            <img src="/burger.png" alt="">
-        </div>
-        <div class="card" id="doce">--CARD3--
-            <img src="/doce.png" alt="">
-        </div>
-        <div class="card" id="espaguete">--CARD4--
-            <img src="/espaguete.png" alt="">
-        </div>
-        <div class="card" id="lasanha">--CARD5--
-            <img src="/lasanha.png" alt="">
-        </div>
-        <div class="card" id="pizza">--CARD6--
-            <img src="/pizza.png" alt="">
-        </div>
-        <div class="card" id="asinhas">--CARD1--
-            <img src="/asinhas.png" alt="">
-        </div>
-        <div class="card" id="burger">--CARD2--
-            <img src="/burger.png" alt="">
-        </div>
-        <div class="card" id="doce">--CARD3--
-            <img src="/doce.png" alt="">
-        </div>
-        <div class="card" id="espaguete">--CARD4--
-            <img src="/espaguete.png" alt="">
-        </div>
-        <div class="card" id="lasanha">--CARD5--
-            <img src="/lasanha.png" alt="">
-        </div>
-        <div class="card" id="pizza">--CARD6--
-            <img src="/pizza.png" alt="">
-        </div>
-    </section>
+{% block content %}
 
-    <!-- Modal -->
-    <div class="modal_overlay">
-        <div class="modal">
-            <a class="close_modal" onclick="fecha_modal()">
-                <span class="material-symbols-outlined">close</span>
-            </a>
-            <div class="modal_content">
-                <img class="modal_img" src="" alt="">
-                <div id="card_content"></div>
-            </div>
-        </div>
+<!-- Cards de Receitas -->
+<section class="cards">
+    <div class="card" id="asinhas">--CARD1--
+        <img src="/asinhas.png" alt="">
     </div>
-</body>
-<script src="scripts.js"></script>
+    <div class="card" id="burger">--CARD2--
+        <img src="/burger.png" alt="">
+    </div>
+    <div class="card" id="doce">--CARD3--
+        <img src="/doce.png" alt="">
+    </div>
+    <div class="card" id="espaguete">--CARD4--
+        <img src="/espaguete.png" alt="">
+    </div>
+    <div class="card" id="lasanha">--CARD5--
+        <img src="/lasanha.png" alt="">
+    </div>
+    <div class="card" id="pizza">--CARD6--
+        <img src="/pizza.png" alt="">
+    </div>
+    <div class="card" id="asinhas">--CARD1--
+        <img src="/asinhas.png" alt="">
+    </div>
+    <div class="card" id="burger">--CARD2--
+        <img src="/burger.png" alt="">
+    </div>
+    <div class="card" id="doce">--CARD3--
+        <img src="/doce.png" alt="">
+    </div>
+    <div class="card" id="espaguete">--CARD4--
+        <img src="/espaguete.png" alt="">
+    </div>
+    <div class="card" id="lasanha">--CARD5--
+        <img src="/lasanha.png" alt="">
+    </div>
+    <div class="card" id="pizza">--CARD6--
+        <img src="/pizza.png" alt="">
+    </div>
+    <div class="card" id="asinhas">--CARD1--
+        <img src="/asinhas.png" alt="">
+    </div>
+    <div class="card" id="burger">--CARD2--
+        <img src="/burger.png" alt="">
+    </div>
+    <div class="card" id="doce">--CARD3--
+        <img src="/doce.png" alt="">
+    </div>
+    <div class="card" id="espaguete">--CARD4--
+        <img src="/espaguete.png" alt="">
+    </div>
+    <div class="card" id="lasanha">--CARD5--
+        <img src="/lasanha.png" alt="">
+    </div>
+    <div class="card" id="pizza">--CARD6--
+        <img src="/pizza.png" alt="">
+    </div>
+</section>
 
-</html>
+{% endblock %}

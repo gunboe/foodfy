@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html>
-
-<link rel="stylesheet" href="styles.css">
-
-<body >
-    <!-- Cabeçalho -->
-    <div class="top1">
-        <img class="logo" src="/logo.png" alt="FoodFy logo" onclick="goHome()">
-        <div>
-            <a class="href" href="/sobre" >Sobre</a>
-            <a class="href" href="/receitas" >Todas Receitas</a>
-        </div>
-    </div>
+{% extends "layout.html" %}
+ 
+{% block content %}
     
     <!-- SOBRE -->
     <section>
@@ -31,7 +20,5 @@
             dolor do nisi eiusmod dolor laboris tempor. Laboris ipsum amet consequat ullamco anim consequat cupidatat
             qui duis do enim aute voluptate qui.</div>
     </section>
-</body>
-<script src="scripts.js"></script>
 
-</html>
+{% endblock %}
