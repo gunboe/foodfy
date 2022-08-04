@@ -1,6 +1,7 @@
 // Biblioteas
 const express = require('express')
 const nunjucks = require('nunjucks')
+const cards = require("./data.json")
 
 // Inicialização do servidor
 const server = express()
@@ -12,10 +13,10 @@ nunjucks.configure("views",{
 })
 
 // Rotas(Views)
-server.get("/", (req,res,) => res.render("index"))
-server.get("/receitas", (req,res,) => res.render("receitas"))
+server.get("/", (req,res,) => res.render("index", {items: cards}))
+server.get("/receitas", (req,res,) => res.render("receitas", {items: cards}))
 server.get("/sobre", (req,res,) => res.render("sobre"))
 
 // Definição das subpastas para o Template Engine
-server.set("view engine","html")
+server.set("view engine","njk")
 server.use(express.static('public'))

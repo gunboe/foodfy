@@ -100,7 +100,7 @@ section {
 .modal {
     background-color: rgb(252, 232, 207);
     width: 300px;
-    height: 400px;
+    height: auto;
     margin: 30vh auto;
     border-radius: 3%;
     position: relative;
