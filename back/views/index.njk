@@ -14,11 +14,13 @@
     </div>
 
     <!-- CARDS mais acessados -->
-    <div class="subtitle"> mais acessadas!</div>
+    <div class="subtitle"> as mais acessadas:</div>
     <section class="cards">
         {%for item in items%}
-        <div class="card" id="{{item.id}}" receita="{{item.card_content}}">
+        <div class="card" id="{{item.id}}" receita="{{item.card_content}}" stars="{{item.stars}}">
+            <div id="stars_{{item.id}}"></div>
             <img src="/{{item.id}}.png" alt="Imagem de {{item.id}}">
+            {{item.id}}
         </div>
         {%endfor%}
     </section>

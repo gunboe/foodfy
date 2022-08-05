@@ -1,26 +1,32 @@
 [
     {
         "id": "asinhas",
-        "card_content": "Ingredientes:<br>- 400g de asinha de galinha<br>- 1 cebola<br>- 1 Pimentão<br>- Sal e Manteiga a gosto<br>Coloque as asinhas numa tigela tempere com sal e azeite. Coloque a cebola picada junto com o pimentão cortado em tiras compridas. Misture tudo e deixe marinando na geladeira por 4h. Coloque a vazilha no forno por 1h em fogo baixo papel alumínio e depois por mais 30min em fogo alto para dourar. Sirva ainda quente!<br>"
+        "card_content": "Ingredientes:<br>- 400g de asinha de galinha<br>- 1 cebola<br>- 1 Pimentão<br>- Sal e Manteiga a gosto<br>Coloque as asinhas numa tigela tempere com sal e azeite. Coloque a cebola picada junto com o pimentão cortado em tiras compridas. Misture tudo e deixe marinando na geladeira por 4h. Coloque a vazilha no forno por 1h em fogo baixo papel alumínio e depois por mais 30min em fogo alto para dourar. Sirva ainda quente!<br>",
+        "stars": 4
     },
     {
         "id": "burger",
-        "card_content": "Ingredientes:<br>- 200g de maminha moida<br>- 100g de charque moida<br>- 50g de calabresa defumada<br>- 1 ovo<br>- Sal e pimenta a gosto<br>Numa vasilha miture todos os ingredientes e adicione pimenta e sal a gosto, mas cuidado que a charque e a calabresa já é salgada. Faça bolas de carne e as amasse na chapa em fogo médio. Finalize com queijo, salada ou bacon a seu critério.<br>"
+        "card_content": "Ingredientes:<br>- 200g de maminha moida<br>- 100g de charque moida<br>- 50g de calabresa defumada<br>- 1 ovo<br>- Sal e pimenta a gosto<br>Numa vasilha miture todos os ingredientes e adicione pimenta e sal a gosto, mas cuidado que a charque e a calabresa já é salgada. Faça bolas de carne e as amasse na chapa em fogo médio. Finalize com queijo, salada ou bacon a seu critério.<br>",
+        "stars": 5
     },
     {
         "id": "doce",
-        "card_content": "Ingredientes:<br>- 800g de cacau em pó<br>- 200ml creme de leite<br>- 100g de açucar extra fino<br>Bata o creme de leite com uma colher de pau numa vasilha em banho maria com água quente (60.C) até que todo o açucar se desolva. Acrescente o cacau em pó aos poucos até virar uma massa mais uniforme e mole. Coloque a massa em formas, cubra com papel manteiga e leve a geladeira por 1h.<br>"
+        "card_content": "Ingredientes:<br>- 800g de cacau em pó<br>- 200ml creme de leite<br>- 100g de açucar extra fino<br>Bata o creme de leite com uma colher de pau numa vasilha em banho maria com água quente (60.C) até que todo o açucar se desolva. Acrescente o cacau em pó aos poucos até virar uma massa mais uniforme e mole. Coloque a massa em formas, cubra com papel manteiga e leve a geladeira por 1h.<br>",
+        "stars": 3
     },
     {
         "id": "espaguete",
-        "card_content": "Ingredientes:<br>- 300g de farinha de trigo<br>- 2 ovos<br>- Sal a gosto<br>Dolor consequat cillum ex amet voluptate quis consectetur nisi amet. Labore fugiat nulla occaecat ipsum. Culpa elit ex Lorem laboris ex amet. Occaecat ullamco cupidatat aliqua nulla officia esse nostrud occaecat elit veniam. Aliquip amet incididunt magna ad non magna. Proident sint cillum duis ut dolor magna quis proident nulla anim cupidatat laboris tempor.<br>"
+        "card_content": "Ingredientes:<br>- 300g de farinha de trigo<br>- 2 ovos<br>- Sal a gosto<br>Dolor consequat cillum ex amet voluptate quis consectetur nisi amet. Labore fugiat nulla occaecat ipsum. Culpa elit ex Lorem laboris ex amet. Occaecat ullamco cupidatat aliqua nulla officia esse nostrud occaecat elit veniam. Aliquip amet incididunt magna ad non magna. Proident sint cillum duis ut dolor magna quis proident nulla anim cupidatat laboris tempor.<br>",
+        "stars": 2
     },
     {
         "id": "lasanha",
-        "card_content": "Ingredientes:<br>- 400g de massa fresca de lasanha<br>- 200g de queijo mussarela<br>- 200g de presunto<br>- 100g de queijo parmesão ralado<br>- 200ml de molho de tomate<br>Voluptate sit sit esse duis aute ad duis dolore.Dolore consectetur culpa adipisicing ipsum.Esse consectetur occaecat minim fugiat nostrud cillum in elit nisi quis eu deserunt do. Dolore fugiat adipisicing pariatur qui occaecat minim.<br>"
+        "card_content": "Ingredientes:<br>- 400g de massa fresca de lasanha<br>- 200g de queijo mussarela<br>- 200g de presunto<br>- 100g de queijo parmesão ralado<br>- 200ml de molho de tomate<br>Voluptate sit sit esse duis aute ad duis dolore.Dolore consectetur culpa adipisicing ipsum.Esse consectetur occaecat minim fugiat nostrud cillum in elit nisi quis eu deserunt do. Dolore fugiat adipisicing pariatur qui occaecat minim.<br>",
+        "stars": 3
     },
     {
         "id": "pizza",
-        "card_content": "Ingredientes:<br>- 500g de farinha de trigo<br>- 15g fermento biológico<br>- 100ml de leite<br>- 10g Sal<br>Qui et consequat eu elit et pariatur fugiat incididunt cillum amet.Eu consectetur nulla consequat elit.Consequat fugiat laborum fugiat sint proident consectetur et. Ea ut id sit irure amet eu. Quis aliquip esse id fugiat.<br>"
+        "card_content": "Ingredientes:<br>- 500g de farinha de trigo<br>- 15g fermento biológico<br>- 100ml de leite<br>- 10g Sal<br>Qui et consequat eu elit et pariatur fugiat incididunt cillum amet.Eu consectetur nulla consequat elit.Consequat fugiat laborum fugiat sint proident consectetur et. Ea ut id sit irure amet eu. Quis aliquip esse id fugiat.<br>",
+        "stars": 3
     }
 ]
